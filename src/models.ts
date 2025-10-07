@@ -10,6 +10,12 @@ class Peli {
   id: number;
   title: string;
   tags: string[];
+
+  constructor(id: number, title: string, tags: string[]) {
+    this.id = id;
+    this.title = title;
+    this.tags = tags;
+  }
 }
 
 interface SearchOptions {
